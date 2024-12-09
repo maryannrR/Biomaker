@@ -91,11 +91,11 @@ body {
     }
 
     .slides {
-        width: 400px; 
+        width: 800px; 
     }
 
     .slides img{
-        width:240px;
+        width:100%;
     }
 
     .manual-navigation {
