@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre o Projeto Integrador</title>
+<style>
+    @media screen and (max-width: 950px) {
+        .slides img{
+        width: 80dvw;
+    }
+    }
+</style>  
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="style1.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="./index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="./spi.html" class="w3-bar-item w3-button w3-hide-small">Sobre o Projeto Integrador</a>
+    <a href="./biomaker.html" class="w3-bar-item w3-button w3-hide-small">BioMaker</a>
+    <a href="./bacteriofago.html" class="w3-bar-item w3-button w3-hide-small">Bacteriófago</a>
+    <a href="./virusEnvelopado.html" class="w3-bar-item w3-button w3-hide-small">Vírus Envelopado</a>
+    <a href="./bacteria.html" class="w3-bar-item w3-button w3-hide-small">Bactéria</a>
+    <a href="./sobre nos.html" class="w3-bar-item w3-button w3-hide-small">Sobre Nós</a>
+  </div>
+  
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="./spi.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Sobre o Projeto Integrador</a>
+    <a href="./biomaker.html" class="w3-bar-item w3-button" onclick="toggleFunction()">BioMaker</a>
+    <a href="./bacteriofago.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Bacteriófago</a>
+    <a href="./virusEnvelopado.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Vírus Envelopado</a>
+    <a href="./bacteria.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Bactéria</a>
+    <a href="./sobre nos.html" class="w3-bar-item w3-button">Sobre Nós</a>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Sobre o Projeto Integrador</h3>
+  <p>O Projeto Integrador é uma disciplina essencial do nosso curso técnico manuseada pela nossa professora de Biologia e nosso professor técnico, que nos desafia a aplicar, de forma prática, os conhecimentos adquiridos ao longo das aulas. Nesta etapa, nosso foco foi a microbiologia e seus organismos, resultando em uma série de atividades que conectaram teoria, pesquisa e tecnologia.</p>
+  <p>Como parte do projeto, desenvolvemos um trabalho científico (relatórios) aprofundando estudos sobre bacteriófagos, bactérias e vírus envelopados. Tivemos também a oportunidade de utilizar impressoras 3D para criar modelos físicos desses organismos, tornando o aprendizado mais visual e interativo. Por fim, juntamos todo o conhecimento adquirido na criação deste site, um espaço pensado para compartilhar informações de maneira didática e acessível.</p>
+  <p>O Projeto Integrador nos permitiu unir ciência, pesquisa e tecnologia, mostrando como a microbiologia é incrível e essencial para o avanço do conhecimento.</p>
+
+  <div class="w3-row">
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="slides" id="radio1" checked>
+        <input type="radio" name="slides" id="radio2">
+        <input type="radio" name="slides" id="radio3">
+
+        <div class="slides firt">
+          <img src="./img/foto1.jpeg" alt="Imagem A2">
+        </div>
+        <div class="slides">
+          <img src="./img/pibm.jpeg" alt="Imagem C2">
+        </div>
+        <div class="slides">
+          <img src="./img/Professores.jpeg" alt="Professores">
+        </div>
+      </div>
+
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="./spi.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.instagram.com/ifpecampuspalmares/profilecard/?igsh=MXZsdzgzNWcxOW9rdw==" <i class="fa fa-instagram w3-hover-opacity">A2</i></a>
+    <a href="mailto:cemi.ipi@palmares.ifpe.edu.br" <i class="fa fa-envelope"></i> E-mail IFPE</i></a>
+    <a href="https://www.instagram.com/a2.ifpe/profilecard/?igsh=MWMyb2hsdGg3bnRjbQ==" <i class="fa fa-instagram w3-hover-opacity">IFPE</i></a>
+  </div>
+ 
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Usa altura da viewport para garantir que ocupe 100% da tela */
+    background-image: url(./img/grande.jpeg);
+    background-size: cover;
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+/* Media query para dispositivos menores */
+@media (max-width: 768px) {
+    body {
+        background-size: contain; /* Ajusta para conter a imagem em telas menores */
+    }
+}
+
+/* Media query para dispositivos muito pequenos */
+@media (max-width: 480px) {
+    body {
+        background-position: top; /* Alinha a imagem para o topo */
+        background-size: cover; /* Mantém a cobertura total */
+    }
+}

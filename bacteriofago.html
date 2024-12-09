@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bacteriófago</title>
+  
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="style1.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="./index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="./spi.html" class="w3-bar-item w3-button w3-hide-small">Sobre o Projeto Integrador</a>
+    <a href="./biomaker.html" class="w3-bar-item w3-button w3-hide-small">BioMaker</a>
+    <a href="./bacteriofago.html" class="w3-bar-item w3-button w3-hide-small">Bacteriófago</a>
+    <a href="./virusEnvelopado.html" class="w3-bar-item w3-button w3-hide-small">Vírus Envelopado</a>
+    <a href="./bacteria.html" class="w3-bar-item w3-button w3-hide-small">Bactéria</a>
+    <a href="./sobre nos.html" class="w3-bar-item w3-button w3-hide-small">Sobre Nós</a>
+  </div>
+
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="./spi.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Sobre o Projeto Integrador</a>
+    <a href="./biomaker.html" class="w3-bar-item w3-button" onclick="toggleFunction()">BioMaker</a>
+    <a href="./bacteriofago.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Bacteriófago</a>
+    <a href="./virusEnvelopado.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Vírus Envelopado</a>
+    <a href="./bacteria.html" class="w3-bar-item w3-button" onclick="toggleFunction()">Bactéria</a>
+    <a href="./sobre nos.html" class="w3-bar-item w3-button">Sobre Nós</a>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Bacteriófago</h3>
+  <p>Bacteriófagos (ou fagos) são vírus que infectam e destroem bactérias. Eles são amplamente encontrados em ambientes onde há bactérias, como solo, água e o trato intestinal de organismos.</p>
+  <p>Os bacteriófagos possuem uma estrutura simples e característica, composta por:
+    Capsídeo: Uma cápsula proteica que contém o material genético (DNA ou RNA);
+    Cabeça: A parte principal do capsídeo, onde está o material genético;
+    Cauda: Uma estrutura alongada que permite a fixação do fago à célula hospedeira e a injeção do material genético na bactéria;
+    Fibras caudais: Estruturas que auxiliam na adsorção (fixação) do fago à parede bacteriana.</p>
+  <p>Existem dois ciclos principais:
+    Ciclo lítico: O fago invade a bactéria, utiliza a maquinaria celular para se replicar, e, ao final, rompe a bactéria, liberando novos fagos.</p>
+  <p>Ciclo lisogênico: O material genético viral é incorporado ao DNA da bactéria, permanecendo latente até ser ativado.</p>
+  <p>Bacteriófagos não causam doenças diretamente em humanos ou outros organismos multicelulares, pois infectam apenas bactérias. No entanto, eles podem influenciar doenças ao transportar genes de toxinas para algumas bactérias, tornando-as patogênicas. Exemplo: o fago beta em Corynebacterium diphtheriae permite a produção da toxina da difteria. E também ao participar do fenômeno de transdução, promovendo a transferência genética entre bactérias, o que pode resultar em resistência a antibióticos.
+    Atualmente, os bacteriófagos têm sido estudados para a fagoterapia, uma alternativa ao uso de antibióticos no tratamento de infecções bacterianas, especialmente em casos de resistência antimicrobiana.
+    </p>
+  <p>Em resumo, os bacteriófagos desempenham um papel crucial no controle de populações bacterianas e têm aplicações promissoras na medicina e biotecnologia.</p>
+
+  <div class="w3-row">
+    <div class="slider">
+      <div class="slides">
+        <input type="radio" name="slides" id="radio1" checked>
+        <input type="radio" name="slides" id="radio2">
+        <input type="radio" name="slides" id="radio3">
+
+        <div class="slides firt">
+          <img src="./img/rbf.jpeg" alt="Imagem A2">
+        </div>
+        <div class="slides">
+          <img src="./img/bf.jpeg" alt="Imagem C2">
+        </div>
+        <div class="slides">
+          <img src="./img/gbf.jpeg" alt="Professores">
+        </div>
+      </div>
+
+      <div class="navigation-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+      </div>
+
+      <div class="manual-navigation">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="./bacteriofago.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <a href="https://www.instagram.com/ifpecampuspalmares/profilecard/?igsh=MXZsdzgzNWcxOW9rdw==" <i class="fa fa-instagram w3-hover-opacity">A2</i></a>
+    <a href="mailto:cemi.ipi@palmares.ifpe.edu.br" <i class="fa fa-envelope"></i> E-mail IFPE</i></a>
+    <a href="https://www.instagram.com/a2.ifpe/profilecard/?igsh=MWMyb2hsdGg3bnRjbQ==" <i class="fa fa-instagram w3-hover-opacity">IFPE</i></a>
+  </div>
+ 
+</footer>
+
+</body>
+</html>
