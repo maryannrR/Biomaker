@@ -87,37 +87,25 @@ body {
 
 @media screen and (max-width: 950px) {
     .slider {
-        width: 100%; /* O slider ocupa toda a largura disponível */
-        height: 50%; /* Altura ajustada automaticamente */
+        width: 100%; 
     }
 
     .slides {
-        width: 100%; /* As slides se ajustam proporcionalmente ao slider */
-        height: auto; /* Altura baseada no conteúdo */
-        display: flex; /* Garante o layout flexível */
-        transition: transform 1s ease-in-out; /* Preserva a transição suave */
+        width: 100%; 
     }
 
-    .slides img {
-        width: 100%; /* As imagens ajustam-se ao tamanho das slides */
-        height: auto; /* Mantém a proporção original da imagem */
-        object-fit: cover; /* Ajusta o conteúdo da imagem sem distorção */
+    .slides img{
+        width:800px;
+        object-fit: cover;
     }
 
     .manual-navigation {
-        bottom: 10px; /* Ajusta a posição para caber em telas menores */
-        left: 0;
+        bottom: 20px;
+        left: 0; 
         display: flex; 
-        justify-content: center; /* Centraliza os botões */
-        gap: 10px; /* Espaçamento uniforme entre os botões */
-    }
-
-    .manual-btn {
-        padding: 5px 10px; /* Tamanho reduzido para dispositivos menores */
-        font-size: 12px; /* Reduzido para melhor proporção */
+        justify-content: center; /
     }
 }
-
 
 
 
