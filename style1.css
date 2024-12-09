@@ -88,7 +88,7 @@ body {
 @media screen and (max-width: 950px) {
     .slider {
         width: 100%; /* O slider ocupa toda a largura disponível */
-        height: 1200px; /* Altura ajustada automaticamente */
+        height: 50%; /* Altura ajustada automaticamente */
     }
 
     .slides {
