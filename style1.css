@@ -89,7 +89,6 @@ body {
     .slider {
         width: 100%; /* O slider ocupa toda a largura disponível */
         height: auto; /* Altura ajustada automaticamente */
-        max-height: 50vh; /* Limita a altura a 50% da altura da janela */
     }
 
     .slides {
