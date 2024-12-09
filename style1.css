@@ -89,9 +89,10 @@ body {
     .slides {
         width: 100%;
       }
-    .slides img{
-        width: 100px;
-    }
+    .slider {
+        width: 400px;
+        height: auto;
+        
       .manual-navigation {
         bottom: 20px;
         left: -7%;
