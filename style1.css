@@ -86,15 +86,19 @@ body {
 }
 
 @media screen and (max-width: 950px) {
-    .slider{
-        width: 100%
+    .slider {
+        width: 100%; 
     }
+
     .slides {
-        width: 640px;
-      }
-      .manual-navigation {
+        width: 100%; 
+    }
+
+    .manual-navigation {
         bottom: 20px;
-        left: -7%;
+        left: 0; 
+        display: flex; 
+        justify-content: center; /
     }
 }
 
