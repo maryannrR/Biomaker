@@ -91,7 +91,7 @@ body {
     }
 
     .slides {
-        width: 800px; 
+        width: 100%; 
     }
 
     .slides img{
