@@ -91,7 +91,8 @@ body {
     }
 
     .slides {
-        width: 100%; /* As slides se ajustam proporcionalmente ao slider */
+        width: 240px; /* As slides se ajustam proporcionalmente ao slider */
+        height: auto;
     }
 
     .slides img {
