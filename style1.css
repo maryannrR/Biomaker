@@ -86,24 +86,15 @@ body {
 }
 
 @media screen and (max-width: 950px) {
-    .slider {
-        width: 100%; 
-    }
-
+    .slider{
+        width: 100px;
+        height: auto;
     .slides {
-        width: 100%; 
-    }
-
-    .slides img{
-        width:800px;
-        object-fit: cover;
-    }
-
-    .manual-navigation {
+        width: 100dvw;
+      }
+      .manual-navigation {
         bottom: 20px;
-        left: 0; 
-        display: flex; 
-        justify-content: center; /
+        left: -7%;
     }
 }
 
