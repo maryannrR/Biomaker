@@ -94,6 +94,10 @@ body {
         width: 100%; 
     }
 
+    .slides img{
+        width:100%
+    }
+
     .manual-navigation {
         bottom: 20px;
         left: 0; 
