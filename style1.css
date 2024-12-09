@@ -177,7 +177,13 @@ body {
         width: 100%;
     }
     .slides {
+        width: 50%;
+    }
+
+    .slides img {
         width: 100%;
+        height: auto;
+        object-fit: cover;
     }
     
     .manual-navigation {
