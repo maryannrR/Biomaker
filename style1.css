@@ -95,7 +95,7 @@ body {
     }
 
     .slides img {
-        width: 100%; /* As imagens ajustam-se ao tamanho das slides */
+        width: 200px; /* As imagens ajustam-se ao tamanho das slides */
         height: auto; /* Mantém a proporção original da imagem */
     }
 
