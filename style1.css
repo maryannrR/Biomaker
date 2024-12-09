@@ -89,8 +89,7 @@ body {
     .slider {
          width: 100%;
     .slides img {
-        width: 100%;
-        position: relative;
+        width: 230px;
     }
       .manual-navigation {
         bottom: 20px;
