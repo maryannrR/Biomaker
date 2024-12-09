@@ -95,17 +95,7 @@ body {
     }
 }
 
-@media screen and (max-width: 650px) {
-      .manual-navigation {
-        left: -15%;
-    }
-}
 
-@media screen and (max-width: 650px) {
-    .manual-navigation {
-      left: -25%;
-  }
-}
 
 
 
