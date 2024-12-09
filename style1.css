@@ -87,29 +87,13 @@ body {
 
 @media screen and (max-width: 950px) {
     .slider {
-        width: 100%;
+        width: 1000px;
     }
     .slides {
         width: 100%;
       }
       .manual-navigation {
         bottom: 20px;
-        left: -7%;
     }
-}
-
-@media screen and (max-width: 650px) {
-      .manual-navigation {
-        left: -15%;
-    }
-    .slides img {
-        width: 750px;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .manual-navigation {
-      left: -25%;
-  }
 }
 
