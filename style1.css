@@ -87,14 +87,7 @@ body {
 
 @media screen and (max-width: 950px) {
     .slider {
-         width: 100%;
-    }
-    .slides {
-        width: 100%;
-      }
-    .slidesimg{
-        width: 100%;
-    }
+         width: 640px;
       .manual-navigation {
         bottom: 20px;
         left: -7%;
